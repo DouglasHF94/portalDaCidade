@@ -1,0 +1,177 @@
+body {
+    padding: 0;
+    margin: 0 auto;
+}
+a, li {
+    text-decoration: none;
+    list-style-type: none;
+}
+
+.site {
+    display: grid;
+    max-width: 1200px;
+    margin: 0 auto;
+    grid-template-columns: 2fr 1fr;
+    grid-template-areas: 
+    "logan logan"
+    "nav nav"
+    "propagandas-grande propaganda"
+    "artigo propaganda"
+    ;
+}
+
+.nav {
+    background-color: #9fa3a9;
+    grid-area: nav;
+}
+
+.artigo {
+    grid-row: 4/6;
+}
+
+
+.propaganda-pequena {
+ grid-area: propaganda;
+}
+
+.propagandas-grande {
+    grid-area: propagandas-grande;
+}
+
+
+.logan{
+    grid-area: logan;
+    text-align: center;
+    font-family: 'Dancing Script', Courier, monospace;
+    min-height: 200px;
+}
+.nav-nav {
+    display: flex;
+    justify-content: space-between;
+    font-family: 'Dancing Script', Courier, monospace;
+    font-weight:bolder;
+
+}
+
+.nav-nav a {
+    background-color: #9fa3a9;
+    color: #171718;
+    font-size: 25px;
+    padding: 15px;
+    border-radius: 5px;
+}
+
+.propaganda{
+    display: flex;
+    flex-wrap: wrap;
+    height: 200px;
+    border: 2px solid #3c3c3c;
+    margin: 30px 0px 50px 0px;
+    border-radius: 4px;
+}
+
+.tex-propa{
+    font-size: 30px;
+    color: #1f2124;
+    margin: auto;
+}
+
+.propaganda-pequenas{
+    display: flex;
+    flex-wrap: wrap;
+    height: 300px;
+    border: 2px solid #3c3c3c;
+    margin: 30px 0px 50px 0px;
+    border-radius: 4px;
+}
+
+.propaganda-pequena {
+    padding-left: 15px;
+}
+
+
+/*img icones*/
+
+.inicio {
+    position: relative;
+}
+
+.img-inicio {
+    position: absolute;
+    max-width: 50px;
+    left: -40px;
+    bottom: -6px;
+}
+
+.agenda {
+    position: relative;
+}
+
+.img-agenda {
+    position: absolute;
+    max-width: 50px;
+    left: -40px;
+    bottom: -15px;
+}
+
+.tempo {
+    position: relative;
+}
+
+.img-tempo {
+    position: absolute;
+    max-width: 50px;
+    left: -40px;
+    bottom: -10px;
+}
+
+.vagas {
+    position: relative;
+}
+
+.img-vagas {
+    position: absolute;
+    max-width: 50px;
+    left: -40px;
+    bottom: -10px;
+}
+
+.telefone {
+    position: relative;
+}
+
+.img-telefone {
+    position: absolute;
+    max-width: 40px;
+    left: -35px;
+    bottom: -5px;
+}
+
+/*Conteudo*/
+
+
+.data-text {
+    margin: 0px;
+    color: #9fa3a9;
+}
+
+h2 {
+    color: #6a6e73;
+}
+
+h1 {
+    margin: 0px;
+    font-family: 'Dancing Script', Courier, monospace;
+    font-size: 50px;
+    font-weight: bolder;
+    color: #393d42;
+}
+
+/*Noticias*/
+
+.img-not01 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 50px;
+}
