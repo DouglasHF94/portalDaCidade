@@ -5,7 +5,7 @@ Site de feito para cliente.
 
 ## Preview
 
-<img src="https://github.com/DouglasHF94/portalDaCidade/tree/master/img/img-noticias/noticia.img.png" height="500"/>
+<img src="https://github.com/DouglasHF94/portalDaCidade/tree/master/img/noticia.img.png" height="500"/>
 
 
 ## Live link:
